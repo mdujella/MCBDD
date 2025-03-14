@@ -29,7 +29,7 @@ plt.xscale("log")
 # Plot labels and title
 plt.xlabel("Prevalence (%)")
 plt.ylabel("P(Infected | Positive)")
-plt.title(f"P(Infected | Positive) vs. Prevalence (Specificity = {spec}%)")
+plt.title(f"P(Infected | Positive) vs. Prevalence")
 plt.legend() 
 plt.grid(True, linestyle="--", linewidth=0.5)
 plt.show()
